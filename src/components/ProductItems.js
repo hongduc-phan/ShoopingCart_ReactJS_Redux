@@ -15,10 +15,6 @@ class ListItems extends Component {
                     <div className="panel-heading"><h1 className="panel-title">List Products</h1></div>
                     <div className="panel-body" id="list-product">
                         { this.showElementProduct(products)}
-                        <ProductItemNoSale/>
-                        <Product/>
-                        <ProductItemNoSale/>
-                        <Product/>
                     </div>
                 </div>
             </div>

@@ -59,7 +59,7 @@ let defaultState = [
     },
     {
         id: '8',
-        name: 'h',
+        name: 'h2',
         image: 'aplus-media.jpg',
         summary: 'product 1 a',
         price: 180,
@@ -86,7 +86,7 @@ let defaultState = [
 const products = (state = defaultState, action) => {
     switch (action.type) {
         case types.LIST_PRODUCT:
-            return action.content;
+            return state;
         default:
             return state;
     }
